@@ -40,7 +40,8 @@
 
 2. Then you can begin to ref the include the token/article under that folder. In my config, you can see that I put the one dependent repositoy under token folder and the other under code folder at the root.
    So you can write include as this: `[!INCLUDE[Include a hello token here](token/dependent_repo_20160527_token/Token/hello.md)]`
-   Here's build result: [!INCLUDE[Include a hello token here](token/dependent_repo_20160527_token/Token/hello.md)]
+   Here's build result:
+   [!INCLUDE[Include a hello token here](token/dependent_repo_20160527_token/Token/hello.md)]
    
    Also you can ref the code at the code folder as this:
    `[!CODE-cs[Include an cs code snippet](code/dependent_repo_20160527_token2/Code/sampleCS.cs)]`
@@ -48,4 +49,5 @@
    [!CODE-cs[Include an cs code snippet](code/dependent_repo_20160527_token2/Code/sampleCS.cs)]
 
 3. For the image ref in another repository, sample `![Ref an image from another repository](token/dependent_repo_20160527_token/Image/app-settings.png)`
-   Here's build result: ![Ref an image from another repository](token/dependent_repo_20160527_token/Image/app-settings.png)
+   Here's build result:
+   ![Ref an image from another repository](token/dependent_repo_20160527_token/Image/app-settings.png)
