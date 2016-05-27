@@ -17,5 +17,17 @@
       "build_entry_point": "docs"
     }
   ],
+  "dependent_repositories": [
+        {
+            "path_to_root": "fenxu_dp_repo_20160527/token",
+            "url": "https://github.com/fenxu/dependent_repo_20160527_token",
+            "branch": "master"
+        },
+        {
+            "path_to_root": "fenxu_dp_repo_20160527/code",
+            "url": "https://github.com/fenxu/dependent_repo_20160527_token2",
+            "branch": "develop"
+        }
+    ],
   "skip_source_output_uploading": false
 }
