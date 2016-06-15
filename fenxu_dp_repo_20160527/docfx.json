@@ -7,8 +7,8 @@
         ],
         "exclude": [
           "**/obj/**",
-          "token",
-          "code"
+          "token/**",
+          "code/**"
         ],
         "src": null,
         "dest": null
