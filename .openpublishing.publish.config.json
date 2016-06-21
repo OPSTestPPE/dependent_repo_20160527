@@ -26,7 +26,10 @@
         {
             "path_to_root": "fenxu_dp_repo_20160527/code",
             "url": "https://github.com/fenxu/dependent_repo_20160527_token2",
-            "branch": "develop"
+            "branch": "develop",
+            "branch_mapping": {
+              "master": "develop"
+            }
         }
     ],
   "skip_source_output_uploading": false
