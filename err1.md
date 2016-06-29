@@ -10,8 +10,6 @@ comment html tag.
 <!-- | Team Size | ~ 100 | 1000+ | -->
 <!-- | Users | ~1000 | ~100M | -->
 <!-- | Testing Phase | Unit | System | -->
-<!-- | Tools | JUnit | In-house | -->
-<!-- | Type of Coverage | Statement, branch | Block, Arc | -->
-<!-- | Granularity | Files | Binaries| -->
+<!-- | Tools | JUnit | In-house 
 
 The above is comment.

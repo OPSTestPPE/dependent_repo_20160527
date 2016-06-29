@@ -2,7 +2,7 @@
 
 comment html tag.
 
-<!-- | Area | Avaya | Microsoft | -->
+<!-- | Area | Avaya | Microsoft |
 <!-- |---|---|---| -->
 <!-- | Language | Java | C/C++ | -->
 <!-- | Size | 1 MLOC | 40+ MLOC | -->
