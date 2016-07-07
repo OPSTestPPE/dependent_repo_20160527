@@ -12,3 +12,7 @@ packages.config
 
 fenxu_dp_repo_20160527/token
 fenxu_dp_repo_20160527/code
+
+_themes/
+_themes.MSDN.Modern/
+_themes.VS.Modern/

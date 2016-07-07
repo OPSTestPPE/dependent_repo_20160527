@@ -30,6 +30,11 @@
             "branch_mapping": {
               "master": "develop"
             }
+        },
+        {
+            "path_to_root": "_themes",
+            "url": "https://github.com/Microsoft/templates.docs.msft",
+            "branch": "master",
         }
     ],
   "skip_source_output_uploading": false
