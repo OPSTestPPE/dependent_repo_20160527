@@ -1,36 +1,22 @@
 {
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "docsets_to_publish": [
+  "docsets_to_publish": [],
+  "skip_source_output_uploading": false,
+  "dependent_repositories": [
     {
-      "docset_name": "fenxu_dp_repo_20160527",
-      "build_source_folder": "fenxu_dp_repo_20160527",
-      "build_output_subfolder": "fenxu_dp_repo_20160527",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs"
+      "path_to_root": "fenxu_dp_repo_20160527/token",
+      "url": "https://github.com/fenxu/dependent_repo_20160527_token",
+      "branch": "master"
+    },
+    {
+      "path_to_root": "fenxu_dp_repo_20160527/code",
+      "url": "https://github.com/fenxu/dependent_repo_20160527_token2",
+      "branch": "develop",
+      "branch_mapping": {
+        "master": "develop"
+      }
     }
   ],
-  "dependent_repositories": [
-        {
-            "path_to_root": "fenxu_dp_repo_20160527/token",
-            "url": "https://github.com/fenxu/dependent_repo_20160527_token",
-            "branch": "master"
-        },
-        {
-            "path_to_root": "fenxu_dp_repo_20160527/code",
-            "url": "https://github.com/fenxu/dependent_repo_20160527_token2",
-            "branch": "develop",
-            "branch_mapping": {
-              "master": "develop"
-            }
-        }
-    ],
-  "skip_source_output_uploading": false
+  "need_generate_pdf_url_template": false
 }
